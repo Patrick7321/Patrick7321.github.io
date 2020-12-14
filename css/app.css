@@ -1,0 +1,27 @@
+#container {
+    background: #fefefe;
+}
+
+#top-pic {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.nav-item {
+    font-family: Garamond, serif;
+    font-size: 2em;
+    text-align: center;
+    transform: skewX(-20deg);
+    border-right: 1px solid black;
+}
+
+.nav-item a {
+    display: block;
+    transform: skewX(20deg);
+}
+
+.nav-item:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
